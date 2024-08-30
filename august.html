@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box !important;
+            display: flex !important;
+            justify-content: center  !important;
+            align-items: center !important;
+        }
+
+
+        
+
+        .Calendar {
+
+            width: 630px;
+            height: 580px;
+            background-color: black;
+            box-shadow: 10px 20px 20px 20px rgba(0, 0, 0, 0.5);
+            /* margin: 100px; */
+            padding: 20px;
+            
+        }
+
+        .date {
+            display: flex !important;
+
+        }
+
+        .main-div {
+            display: flex;
+            flex-wrap: wrap;
+            color: white
+        }
+
+        .numbers {
+            border: white 0.5px solid;
+            border-radius: 12px;
+            margin: 5px;
+            height: 49px;
+            width: 49px;
+            padding: 25px;
+            transition: 0.5 background-color color ease;
+        }
+
+        .numbers:hover {
+            background-color:white;
+            color: black
+        }
+        button{
+            background-color: black;
+            border: 1px solid white;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container1 ">
+       
+
+        <div class="Calendar">
+
+            <div class="date ">
+                <div>
+                    <div class="text-white">
+                        <h3 class="pt-3">August 2024</h3>
+                    </div>
+                    <div class="main-div">
+                        <div class="numbers">1</div>
+                        <div class="numbers">2</div>
+                        <div class="numbers">3</div>
+                        <div class="numbers">4</div>
+                        <div class="numbers">5</div>
+                        <div class="numbers">6</div>
+                        <div class="numbers">7</div>
+                        <div class="numbers">8</div>
+                        <div class="numbers">9</div>
+                        <div class="numbers">10</div>
+                        <div class="numbers">11</div>
+                        <div class="numbers">12</div>
+                        <div class="numbers">13</div>
+                        <div class="numbers">14</div>
+                        <div class="numbers">15</div>
+                        <div class="numbers">16</div>
+                        <div class="numbers">17</div>
+                        <div class="numbers">18</div>
+                        <div class="numbers">19</div>
+                        <div class="numbers">20</div>
+                        <div class="numbers">21</div>
+                        <div class="numbers">22</div>
+                        <div class="numbers">23</div>
+                        <div class="numbers">24</div>
+                        <div class="numbers">25</div>
+                        <div class="numbers">26</div>
+                        <div class="numbers">27</div>
+                        <div class="numbers">28</div>
+                        <div class="numbers">29</div>
+                        <div class="numbers">30</div>
+                        <div class="numbers">31</div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="Asset\img8.jpg" class="mt-5 mx-2 pt-5" alt="img" style="height: 390px;width:250px ;">
+                </div>
+            
+            </div>
+            <div>
+                <button class="p-2 m-4" style="width:100px ;"><a href="july.html" class="text-decoration-none text-white">Previous</a></button>
+                <button class="p-2 m-4" style="width:100px "><a href="sep.html" class="text-decoration-none text-white">Next</a></button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
